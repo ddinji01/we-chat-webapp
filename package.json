@@ -2,6 +2,13 @@
   "name": "instant-message-server",
   "version": "0.0.1",
   "description": "online chat server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
   "dependencies": {
     "express": "^4.10.2",
     "socket.io": "^1.4.5"

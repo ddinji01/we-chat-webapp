@@ -18,7 +18,7 @@ io.on('connection', function(socket) {
     });
     socket.on('disconnect', function() {
     	if (socket_user != null) {
-    		io.emit('lost-user', socket_user)
+    		io.emit('lost-user', socket_user);
     	}
     });
 });
